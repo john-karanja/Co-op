@@ -1,0 +1,198 @@
+ /**********************
+Header
+ ***********************/
+ section.main-header {
+    background-image: url(/images/Group-1.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 660px;
+    padding-top: 50px;
+}
+ 
+ /**********************
+Space
+ ***********************/
+ .card-info {
+     margin: 30px auto;
+ }
+ .main-actions {
+     padding-bottom: 50px;
+ }
+ .main-actions .row:nth-child(3){
+    margin-top: 5%;
+ }
+ /**********************
+Colors
+ ***********************/
+ .carousel.flickity-enabled  {
+     background-color: transparent;
+ }
+ ol.flickity-page-dots .dot {
+     background: #fff;
+ }
+ li.dot {
+     border: 1px solid #7AC143;
+ }
+ li.dot.is-selected {
+    background: #7AC143;
+}
+ /**********************
+Navigation
+ ***********************/
+ .main-header .navbar.primary-nav {
+     padding-top: 10px;
+     display: flex;
+     justify-content: center;
+ }
+ .main-header .primary-nav .row {
+     display: flex;
+     align-items: center;
+ }
+.secondary-nav{
+     margin-top: 0;
+     padding-top: 0;
+     border-bottom: 4px solid #fff;
+     width: fit-content;
+     margin: auto;
+
+
+ }
+ /**********************
+ Typography
+ ***********************/
+ h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Noto Sans', sans-serif;
+ }
+ .main-header {
+     color: #fff;
+ } 
+ .main-header h1 {
+     font-size: 1.4em;
+ }
+ .main-header .secondary-nav h2{
+     font-size: 1em;
+ }
+ a.nav-link {
+     color: #fff;
+     font-size: 0.85em;
+     font-weight: 300;
+     
+ }
+ .card-container p, .main-actions h1, .quick-action-card p {
+     color: #00513B;
+ }
+ .card-container .acc-type, .acc-num, .quick-action-card p {
+     font-size: 0.73em;
+     font-weight: 700;
+ }
+ .card-container .acc-name {
+     font-size: 0.76em;
+     margin: -7% auto;
+ }
+ .show-number-card p {
+     font-size: 0.85em;
+     font-weight: 400;
+ }
+.quick-actions-row h1{
+     font-size: 1.2em;
+     margin-bottom: 30px;
+     font-weight: bold;
+}
+.quick-actions-row {
+    display: flex;
+    justify-content: center;
+}
+/**********************
+ Images
+ ***********************/
+ img {
+     max-width: 100%;
+ }
+.elephant-img {
+    min-width: 100%;
+}
+ /**********************
+Cards
+ ***********************/
+ .card-container {
+     background-color: #D5E1DE;
+     padding: 20px 15px;
+     border-radius: 8px;
+ }
+ .show-number-card {
+     display: flex;
+     align-items: baseline;
+     justify-content: center;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 0 9px rgba(0,0,0,0.1);
+
+ }
+ .show-number-card p, .recent-transactions-toogle img {
+     margin-left: 5px;
+ }
+ .show-number-card p, .show-number-card img {
+     margin-top: 3%;
+ }
+ .quick-action-card {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    height: 150px;
+    max-height: 100%;
+ }
+ .quick-action-card p {
+     text-align: center;
+     margin-top: 4px;
+ }
+ /**********************
+Buttons
+ ***********************/
+ .recent-transactions-toogle {
+     display: flex;
+     justify-content: center;
+     margin: 25px auto;
+ }
+ .recent-transactions-toogle button {
+     background: none;
+     padding: 12px;
+     border: 1px solid #E7F7D6;
+     color: #fff;
+     border-radius: 10px;
+     font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+ }
+/***********************
+ Media Queries
+ ***********************/
+ @media only screen and (min-width: 320px) {
+     
+ }
+ @media only screen and (min-width: 768px) {
+       
+ }
+ @media only screen and (max-width: 768px) {
+    .elephant-img{
+        min-width: 120%;
+    }
+ }
+ @media only screen and (max-width: 381px) {
+    section.main-header h1 {
+        font-size: 1em;
+    }
+    .secondary-nav a {
+        font-size: 0.7em;
+    }
+    .elephant-img{
+        min-width: 170%;
+    }
+    .card-menu img {
+        max-width: 190%;
+     }
+ }
+  
